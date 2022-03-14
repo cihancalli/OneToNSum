@@ -56,15 +56,39 @@
 		996A954127DFCCA60045E566 /* OneToNSum */ = {
 			isa = PBXGroup;
 			children = (
+				996A955827DFCD030045E566 /* Views */,
+				996A955727DFCCF60045E566 /* Controllers */,
+				996A955627DFCCD60045E566 /* Supporting Files */,
+			);
+			path = OneToNSum;
+			sourceTree = "<group>";
+		};
+		996A955627DFCCD60045E566 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				996A954227DFCCA60045E566 /* AppDelegate.swift */,
 				996A954427DFCCA60045E566 /* SceneDelegate.swift */,
-				996A954627DFCCA60045E566 /* ViewController.swift */,
-				996A954827DFCCA60045E566 /* Main.storyboard */,
 				996A954B27DFCCAB0045E566 /* Assets.xcassets */,
 				996A954D27DFCCAB0045E566 /* LaunchScreen.storyboard */,
 				996A955027DFCCAB0045E566 /* Info.plist */,
 			);
-			path = OneToNSum;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		996A955727DFCCF60045E566 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				996A954627DFCCA60045E566 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		996A955827DFCD030045E566 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				996A954827DFCCA60045E566 /* Main.storyboard */,
+			);
+			name = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
